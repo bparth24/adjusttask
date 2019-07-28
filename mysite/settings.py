@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'adjust_app',
 ]
 
 MIDDLEWARE = [
@@ -78,6 +79,16 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+    # },
+    #
+    # 'default1': {
+    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #     "NAME": "adjust",
+    #     "USER": "postgres",
+    #     "PASSWORD": "postgres",
+    #     "HOST": "localhost",
+    #     "PORT": "5432",
+    # },
 }
 
 

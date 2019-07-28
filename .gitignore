@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#pycharm IDE
+.DS_Store
+.idea/
+venv/
+
+# python binaries
+*.pyc
